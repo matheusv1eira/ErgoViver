@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Perfil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <a href="#">Home</a>
+            <a href="#">Agendamento</a>
+            <a href="#">Pagamentos</a>
+            <a href="#">Configuração</a>
+        </div>
+        <div class="content">
+            <div class="profile-header">
+                <img src="https://github.com/carlosqbarbosa/Ergoviver/blob/main/Projeto%20ERGOVIVER/assets/img/foto%20paciente.png?raw=true" alt="Foto de Perfil">
+                <h1>Editar perfil</h1>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="nome-completo">Nome Completo</label>
+                    <input type="text" id="nome-completo" value="Mariana Costa Fernandez">
+                </div>
+                <div class="form-group">
+                    <label for="data-nascimento">Data de nascimento</label>
+                    <input type="text" id="data-nascimento" value="13/11/1995">
+                </div>
+                <div class="form-group">
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="cpf" value="120.365.458-66">
+                </div>
+                <div class="form-group">
+                    <label for="cep">CEP</label>
+                    <input type="text" id="cep" value="51456987">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" value="marianacosta95@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="genero">Gênero</label>
+                    <select id="genero">
+                        <option value="mulher" selected>Mulher</option>
+                        <option value="homem">Homem</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Número de telefone</label>
+                    <input type="text" id="telefone" value="(81) 9999-9999">
+                </div>
+                <div class="form-group">
+                    <label for="estado">Estado</label>
+                    <input type="text" id="estado" value="São Paulo">
+                </div>
+                <div class="form-group">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" value="Recife">
+                </div>
+                <div class="form-group">
+                    <label for="rua">Rua</label>
+                    <input type="text" id="rua" value="Avenida Boa Viagem">
+                </div>
+                <div class="form-group">
+                    <label for="complemento">Complemento</label>
+                    <input type="text" id="complemento" value="Apartamento 301">
+                </div>
+                <button type="submit" class="save-button">Salvar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

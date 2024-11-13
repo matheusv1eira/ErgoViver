@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <a href="">Home</a>
+        <a href="#">Agendamento</a>
+        <a href="#">Pagamentos</a>
+        <a href="#">Notificação</a>
+        <a href="#">Conta</a>
+    </div>
+    <div class="main-content">
+        <h2>Agende um atendimento</h2>
+        <div class="form-group">
+            <label for="date">Data</label>
+            <input type="date" id="date" value="2024-10-10">
+        </div>
+        <div class="form-group">
+            <label>Horários</label>
+            <div class="time-slots">
+                <button class="time-slot">09:00</button>
+                <button class="time-slot">10:00</button>
+                <button class="time-slot">11:00</button>
+                <button class="time-slot">12:00</button>
+                <button class="time-slot disabled">13:00</button>
+                <button class="time-slot disabled">14:00</button>
+                <button class="time-slot">15:00</button>
+                <button class="time-slot disabled">16:00</button>
+                <button class="time-slot disabled">17:00</button>
+                <button class="time-slot">19:00</button>
+                <button class="time-slot">20:00</button>
+                <button class="time-slot">21:00</button>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="specialty">Especialidade da área da saúde</label>
+            <select id="specialty">
+                <option value="psicologia">Psicologia</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="professional">Profissional da área da saúde</label>
+            <select id="professional">
+                <option value="nayara">Nayara</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="mode">Modalidade</label>
+            <select id="mode">
+                <option value="online">Online</option>
+            </select>
+        </div>
+        <div class="agenda">
+            <h3>Agenda</h3>
+            <div class="appointment">
+                <p><strong>Data:</strong> 2024-10-10</p>
+                <p><strong>Horário:</strong> 09:00</p>
+                <p><strong>Especialidade:</strong> Psicologia</p>
+                <p><strong>Profissional:</strong> Nayara</p>
